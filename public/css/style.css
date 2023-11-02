@@ -1,0 +1,44 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow: 2px 2px 20px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 55em;
+    margin-left: 3em;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+ul img {
+    display: flex;
+    align-content: center;
+
+}
+
+li a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: maroon;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 1px solid maroon;
+}
