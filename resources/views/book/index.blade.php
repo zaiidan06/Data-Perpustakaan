@@ -1,5 +1,6 @@
 @extends('layouts.main')
 @section('content')
+
     <div class="container">
         <h2>Data Perpustakaan</h2><br>
         <a href="{{ route('book.create') }}" class="btn btn-primary">Tambah Buku</a>

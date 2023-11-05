@@ -6,6 +6,11 @@ use App\Models\Buku;
 
 class BukuController extends Controller
 {
+    public function home()
+    {
+        return view('book.home');
+        
+    }
     public function index()
     {
         $buku = Buku::all();

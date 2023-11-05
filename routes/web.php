@@ -18,7 +18,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/book', [BukuController::class, 'index'])->name('book.index');
+Route::get('/book', [BukuController::class, 'home'])->name('book.home');
+Route::get('/book/index', [BukuController::class, 'index'])->name('book.index');
 Route::get('/book/create', [BukuController::class, 'create'])->name('book.create');
 Route::post('/book', [BukuController::class, 'store'])->name('book.store');
 Route::get('/book/{id}', [BukuController::class, 'show'])->name('book.show');

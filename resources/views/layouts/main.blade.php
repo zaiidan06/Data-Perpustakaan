@@ -15,13 +15,14 @@
 <body>
     <nav>
         <ul>
-            <img src="book.png" alt="book" width="9%">
-            <li><a href="book">ZEE LIBRARY</a></li>
+            <img src="open-book.png" alt="book" width="9%">
+            <li><a href="book/index">Z LIBRARY</a></li>
             <li><a href="">PRODUCT</a></li>
             <li><a href="">CONTACT US</a></li>
         </ul>
     </nav><br><br><br>
-    @yield('content')
+    <div class="content">
+        @yield('content')
+    </div>
 </body>
-
 </html>
